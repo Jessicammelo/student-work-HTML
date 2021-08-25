@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Cadastro pessoa</title>
+        <style>
+                table tr td {
+                        text-align: center;
+                }
+        </style>
+</head>
+
+<body>
+
+        <h1>Cadastro</h1>
+        <p>Cadastro de pessoas que confirmaram presença na palestra.</p>
+
+
+
+        <table width="500px" style="background-color:beige" border="1px" font-size="center" font-weight="bold">
+                <thead>
+                        <tr>
+                                <th>Nome</th>
+                                <th>Idade</th>
+                                <th>Profissão</th>
+                                <th colspan="2">Ações</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                                <td>João</td>
+                                <td>22</td>
+                                <td>Estudante</td>
+                                <td><input type="button" value="Editar"></td>
+                                <td><input type="button" value="Excluir"></td>
+
+                        </tr>
+                        <tr>
+                                <td>Paulo</td>
+                                <td>29</td>
+                                <td>Programador</td>
+                                <td><input type="button" value="Editar"></td>
+                                <td><input type="button" value="Excluir"></td>
+                        </tr>
+                        <tr>
+                                <td>Maria</td>
+                                <td>30</td>
+                                <td>Designer</td>
+                                <td><input type="button" value="Editar"></td>
+                                <td><input type="button" value="Excluir"></td>
+                        </tr>
+                        <tr>
+                                <td>Paula</td>
+                                <td>32</td>
+                                <td>Professor</td>
+                                <td><input type="button" value="Editar"></td>
+                                <td><input type="button" value="Excluir"></td>
+                        </tr>
+                </tbody>
+                <tfoot>
+                        <tr>
+                                <td colspan="3">4</td>
+                                <td colspan="2">Total</td>
+                        </tr>
+                </tfoot>
+        </table>
+
+</body>
+
+</html>
+<br>
+<br>
+<form>
+        <div style="width: 30px;">
+                <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" />
+                </div>
+                <div>
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade" />
+                </div>
+                <div>
+                        <label for="profissao">Profissão:</label>
+                        <input type="text" id="profissao" />
+                </div>
+        </div>
+        <br>
+        <div>
+                <button>Salvar</button>
+        </div>
+</form>
